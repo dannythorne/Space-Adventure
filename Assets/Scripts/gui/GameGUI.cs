@@ -13,6 +13,6 @@ public class GameGUI : MonoBehaviour {
 	
 	}
 	void OnGUI() {
-		 GUI.Box(new Rect(1, 1, Screen.width *0.1f, Screen.height *0.1f), "Active Gun");
+		 GUI.Box(new Rect(1, 1, Screen.width*0.1f, Screen.height*0.1f), "Active Gun");
 	}
 }
